@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+body {
+	background: #232526; /* fallback for old browsers */
+	background: linear-gradient(to right, #232526, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to right, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
+	background: -o-linear-gradient(#232526, #414345); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#232526, #414345); /* For Firefox 3.6 to 15 */
+	color: #ece9e6;
+	color: -webkit-linear-gradient(to right, #ece9e6, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+	color: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
