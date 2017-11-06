@@ -1,6 +1,15 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.main-name {
+.main {
+	text-align:center;
+}
+#portfolio-name {
 	font-family: "boucherie-cursive",sans-serif;
+	font-size: 60px;
+}
+#portfolio-pic {
+	width:30%;
+	height: auto;
+	border-radius: 100%;
 }
