@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <title>Portfolio</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" %>
+    <%= stylesheet_link_tag "https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" %> 
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://use.typekit.net/ezr0jxr.js"></script>
+    <script>
+      
+      try{Typekit.load({ async: true });}catch(e){}
+
+
+    </script>
+  </head>
+  <body>
+    <%= render :partial => 'layouts/nav' %>
+    <%= yield %>
+  </body>
+</html>

@@ -10,6 +10,22 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery3
+//= require jquery_ujs
+//= require typed
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+
+
+$(document).on('turbolinks:load', () => {
+	$(".about_name").typed({
+		strings: ["Zannain Shafi"],
+		contentType: 'text',
+		typeSpeed: 70,
+		shuffle: true,
+		cursorChar: '|',
+	})
+})
+
+

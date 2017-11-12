@@ -1,15 +1,51 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+nav {
+	position: sticky;
+	margin: 0 auto;
+	height: 50px;
+	width: 100%;
+	background-color: #333;
+	drop-shadow: 10px 5px 4px #fff;
+	display: flex;
+	justify-content: space-evenly;
+	align-item: center;
+}
+
+
 .main {
-	text-align:center;
-}
-#portfolio-name {
-	font-family: "boucherie-cursive",sans-serif;
-	font-size: 60px;
-}
-#portfolio-pic {
-	width:30%;
-	height: auto;
-	border-radius: 100%;
+	margin-top: 50px;
+	display:flex;
+	justify-content: space-evenly;
+	#about_pic {
+		border-radius: 100%; 
+		box-shadow: 8px 10px 3px #333; 
+		-webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */ 
+		filter: grayscale(70%);
+		height: 40%; 
+	}
+	.about {
+		text-align:center;
+		float:right;
+	}
+	.about_name {
+		font-family: "boucherie-cursive",sans-serif;
+		font-size: 120px;
+		line-height: 150%;
+		letter-spacing: 3px;
+		opacity: 0.4;
+	}
+	.about_title {
+		font-size: 30px;
+		font-family: "jaf-facitweb",sans-serif;
+	}
+	.social {
+		margin-top: 30px;
+		.fa {
+			color:#333;
+		}
+	}
 }
