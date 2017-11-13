@@ -2,20 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-nav {
-	position: sticky;
-	margin: 0 auto;
-	height: 50px;
-	width: 100%;
-	background-color: #333;
-	drop-shadow: 10px 5px 4px #fff;
-	display: flex;
-	justify-content: space-evenly;
-	align-item: center;
-}
-
-
 .home_page {
 	margin-top: 50px;
 	display:flex;

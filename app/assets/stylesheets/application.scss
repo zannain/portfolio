@@ -28,6 +28,12 @@
  	letter-spacing: 4px;
  	padding: 10px;
  }
+ .truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 
 
