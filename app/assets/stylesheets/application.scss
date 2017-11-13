@@ -17,6 +17,8 @@
  body {
  	background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
  	color: #333;
+ 	font-family: "jaf-facitweb",sans-serif;
+ 	
  }
  .nav {
  	text-align:center;
@@ -28,12 +30,7 @@
  	letter-spacing: 4px;
  	padding: 10px;
  }
- .truncate {
-  width: 250px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-
-
+ #nav_brand {
+ 	font-family: "boucherie-cursive",sans-serif;
+ 	font-size: 40px;
+ }

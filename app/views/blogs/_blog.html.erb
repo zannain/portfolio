@@ -1,19 +1,18 @@
 <div class="rounded max-w-md m-4 shadow-md">
-	<div>
-		<img src="http://via.placeholder.com/200x75" class="rounded min-h-full min-w-full">
+	<div> 
+		<img src="http://via.placeholder.com/200x75" class="rounded min-h-full min-w-full"> 
+	</div> 
+	<div class="mx-4 pt-4">
+		<h1 class="font-bold text-black"><%= blog.title %></h1>
 	</div>
-	<div>
-		<div class="px-6 py-5">
-			<h1 class="font-bold py-4"><%= blog.title %></h1>
+	<div class="flex mx-4 m-3">
+		<%= image_tag "ZannainShafi.jpg", class: "w-12 h-10 rounded-full mr-4" %> 
+		<div class="text-sm">
+			<p class="text-black leading-none">Zannain Shafi</p>
+			<p class="text-grey-dark"><%= blog.created_at %></p>
 		</div>
-		<div class="px-6">
-			<h2 class = "py-2">Author</h2>
-			<p> <%= blog.created_at.strftime('%a, %b %e %Y') %> </p>
-		</div>
-		<div class= "px-6 py-8">
-			<h3>
-				<%= blog.body %>
-			</h3>
-		</div>
+	</div>
+	<div class="mx-4 pt-4">
+		<h3> <%= blog.body %> </h3>
 	</div>
 </div>
