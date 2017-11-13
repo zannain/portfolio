@@ -1,24 +1,15 @@
-# README
+Portfolio Website
+Actively being developed
+zannainshafi.com
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Languages: HTML, CSS3, Javascript, Ruby
 
-Things you may want to cover:
+Frontend Frameworks: Tailwind.css
+Backend Frameworks: Rails
 
-* Ruby version
+Upcoming:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Begin a blog
+Build a splash page using Javascript and jQuery
+Build a dropdown menu for the blog for various topics I write about.
+Add a page for videography and photography projects
