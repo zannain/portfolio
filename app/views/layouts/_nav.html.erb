@@ -2,5 +2,7 @@
   <%= link_to "Z", root_path, :class => 'portfolio-links', :id => 'nav_brand' %>
   <%= link_to "About Me", about_path, :class => 'portfolio-links' %>
   <%= link_to "Resume", "resume.pdf", :class => 'portfolio-links', :target => '_blank' %>
+  <% if @blog %>
   <%= link_to "Blog", blogs_path, :class => 'portfolio-links' %>
+  <% end %>
 </nav>
